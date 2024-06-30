@@ -24,7 +24,7 @@ const Login = () => {
 
   return (
     <>
-      <NavBar />
+      {/* <NavBar /> */}
       <div className="flex item-center justify-center mt-28">
         <div className="w-96 border rounded-lg bg-white px-7 py-10">
           <form onSubmit={handleLogin}>
