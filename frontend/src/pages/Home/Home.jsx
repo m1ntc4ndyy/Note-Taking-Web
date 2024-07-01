@@ -26,16 +26,46 @@ const Home = () => {
             onPinNote={() => {}}
             onEdit={() => {}}
           />
-          <NoteCard
-            title="meet on april 4th"
-            date="4/1/2024"
-            content="meet at 4pm at the park"
-            tags="#meeting"
-            isPinned={true}
-            onDelete={() => {}}
-            onPinNote={() => {}}
-            onEdit={() => {}}
-          />
+      <NoteCard
+        title="meet on april 4th"
+        date="4/1/2024"
+        content="meet at 4pm at the park"
+        tags="#meeting"
+        isPinned={true}
+        onDelete={() => {}}
+        onPinNote={() => {}}
+        onEdit={() => {}}
+      />
+      <NoteCard
+        title="meet on april 4th"
+        date="4/1/2024"
+        content="meet at 4pm at the park"
+        tags="#meeting"
+        isPinned={true}
+        onDelete={() => {}}
+        onPinNote={() => {}}
+        onEdit={() => {}}
+      />
+      <NoteCard
+        title="meet on april 4th"
+        date="4/1/2024"
+        content="meet at 4pm at the park"
+        tags="#meeting"
+        isPinned={true}
+        onDelete={() => {}}
+        onPinNote={() => {}}
+        onEdit={() => {}}
+      />
+      <NoteCard
+        title="meet on april 4th"
+        date="4/1/2024"
+        content="meet at 4pm at the park"
+        tags="#meeting"
+        isPinned={true}
+        onDelete={() => {}}
+        onPinNote={() => {}}
+        onEdit={() => {}}
+      />
         </div>
       </div>
       <button
