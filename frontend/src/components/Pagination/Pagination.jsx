@@ -5,7 +5,7 @@ const Pagination = ({totalUsers, usersPerPage, setCurrentPage}) => {
         pages.push(i);
     }
   return (
-    <div className="flex flex-wrap justify-center mt-1 absolute left-0 right-0 bottom-8">{
+    <div className="flex flex-wrap justify-center mt-1 fixed left-0 right-0 bottom-8">{
         pages.map((page, index) => (
             <button 
                 key={index} 

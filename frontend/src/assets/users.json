@@ -1,155 +1,103 @@
-
 [
-        {
-            "id": 1,
-            "name": "User 1",
-            "email": "user1@gmail.com"
-        },
-        {
-            "id": 2,
-            "name": "User 2",
-            "email": "user2@gmail.com"
-        },
-        {
-            "id": 3,
-            "name": "User 3",
-            "email": "user3@gmail.com"
-        },
-        {
-            "id": 4,
-            "name": "User 4",
-            "email": "user4@gmail.com"
-        },
-        {
-            "id": 5,
-            "name": "User 5",
-            "email": "user5@gmail.com"
-        },
-        {
-            "id": 1,
-            "name": "User 1",
-            "email": "user1@gmail.com"
-        },
-        {
-            "id": 2,
-            "name": "User 2",
-            "email": "user2@gmail.com"
-        },
-        {
-            "id": 3,
-            "name": "User 3",
-            "email": "user3@gmail.com"
-        },
-        {
-            "id": 4,
-            "name": "User 4",
-            "email": "user4@gmail.com"
-        },
-        {
-            "id": 5,
-            "name": "User 5",
-            "email": "user5@gmail.com"
-        },
-        {
-            "id": 2,
-            "name": "User 2",
-            "email": "user2@gmail.com"
-        },
-        {
-            "id": 3,
-            "name": "User 3",
-            "email": "user3@gmail.com"
-        },
-        {
-            "id": 4,
-            "name": "User 4",
-            "email": "user4@gmail.com"
-        },
-        {
-            "id": 5,
-            "name": "User 5",
-            "email": "user5@gmail.com"
-        },
-        {
-            "id": 2,
-            "name": "User 2",
-            "email": "user2@gmail.com"
-        },
-        {
-            "id": 3,
-            "name": "User 3",
-            "email": "user3@gmail.com"
-        },
-        {
-            "id": 4,
-            "name": "User 4",
-            "email": "user4@gmail.com"
-        },
-        {
-            "id": 5,
-            "name": "User 5",
-            "email": "user5@gmail.com"
-        },
-        {
-            "id": 2,
-            "name": "User 2",
-            "email": "user2@gmail.com"
-        },
-        {
-            "id": 3,
-            "name": "User 3",
-            "email": "user3@gmail.com"
-        },
-        {
-            "id": 4,
-            "name": "User 4",
-            "email": "user4@gmail.com"
-        },
-        {
-            "id": 5,
-            "name": "User 5",
-            "email": "user5@gmail.com"
-        },
-        {
-            "id": 2,
-            "name": "User 2",
-            "email": "user2@gmail.com"
-        },
-        {
-            "id": 3,
-            "name": "User 3",
-            "email": "user3@gmail.com"
-        },
-        {
-            "id": 4,
-            "name": "User 4",
-            "email": "user4@gmail.com"
-        },
-        {
-            "id": 5,
-            "name": "User 5",
-            "email": "user5@gmail.com"
-        },
-        {
-            "id": 2,
-            "name": "User 2",
-            "email": "user2@gmail.com"
-        },
-        {
-            "id": 3,
-            "name": "User 3",
-            "email": "user3@gmail.com"
-        },
-        {
-            "id": 4,
-            "name": "User 4",
-            "email": "user4@gmail.com"
-        },
-        {
-            "id": 5,
-            "name": "User 5",
-            "email": "user5@gmail.com"
-        }
-        
-        
-    ]
+    {
+        "name": "John Doe",
+        "email": "johndoe@example.com",
+        "phonenumber": "1234567890"
+    },
+    {
+        "name": "Jane Smith",
+        "email": "janesmith@example.com",
+        "phonenumber": "9876543210"
+    },
+    {
+        "name": "Alice Johnson",
+        "email": "alicejohnson@example.com",
+        "phonenumber": "5555555555"
+    },
+    {
+        "name": "Bob Williams",
+        "email": "bobwilliams@example.com",
+        "phonenumber": "9999999999"
+    },
+    {
+        "name": "Emily Davis",
+        "email": "emilydavis@example.com",
+        "phonenumber": "1111111111"
+    },
+    {
+        "name": "Michael Brown",
+        "email": "michaelbrown@example.com",
+        "phonenumber": "2222222222"
+    },
+    {
+        "name": "Olivia Miller",
+        "email": "oliviamiller@example.com",
+        "phonenumber": "3333333333"
+    },
+    {
+        "name": "James Wilson",
+        "email": "jameswilson@example.com",
+        "phonenumber": "4444444444"
+    },
+    {
+        "name": "Sophia Taylor",
+        "email": "sophiataylor@example.com",
+        "phonenumber": "6666666666"
+    },
+    {
+        "name": "Benjamin Anderson",
+        "email": "benjaminanderson@example.com",
+        "phonenumber": "7777777777"
+    },
+    {
+        "name": "Mia Martinez",
+        "email": "miamartinez@example.com",
+        "phonenumber": "8888888888"
+    },
+    {
+        "name": "Alexander Thomas",
+        "email": "alexanderthomas@example.com",
+        "phonenumber": "1212121212"
+    },
+    {
+        "name": "Ella Hernandez",
+        "email": "ellahernandez@example.com",
+        "phonenumber": "3434343434"
+    },
+    {
+        "name": "William Clark",
+        "email": "williamclark@example.com",
+        "phonenumber": "5656565656"
+    },
+    {
+        "name": "Ava Lewis",
+        "email": "avalewis@example.com",
+        "phonenumber": "7878787878"
+    },
+    {
+        "name": "Daniel Lee",
+        "email": "daniellee@example.com",
+        "phonenumber": "9090909090"
+    },
+    {
+        "name": "Sofia Walker",
+        "email": "sofiawalker@example.com",
+        "phonenumber": "2323232323"
+    },
+    {
+        "name": "Joseph Hall",
+        "email": "josephhall@example.com",
+        "phonenumber": "4545454545"
+    },
+    {
+        "name": "Charlotte Young",
+        "email": "charlotteyoung@example.com",
+        "phonenumber": "6767676767"
+    },
+    {
+        "name": "David Hernandez",
+        "email": "davidhernandez@example.com",
+        "phonenumber": "8989898989"
+    }
+
+]
