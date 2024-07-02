@@ -8,23 +8,25 @@ const UserList = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [usersPerPage, setUserPerPage] = useState(12);
   const [searchValue, setSearchValue] = useState("");
-  
+
   const lastUserIndex = currentPage * usersPerPage;
   const firstUserIndex = lastUserIndex - usersPerPage;
   const currentUsers = users.slice(firstUserIndex, lastUserIndex);
   let temp = currentUsers;
-
+  let tempLength = temp.length;
   const handleSearch = () => {
     if (searchValue !== "") {
       const filteredUsers = users.filter((user) =>
-        user.name.toLowerCase().includes(searchValue.toLowerCase()));
-      temp = filteredUsers;
+        user.name.toLowerCase().includes(searchValue.toLowerCase())
+      );
+      temp = filteredUsers.slice(firstUserIndex, lastUserIndex);
+      tempLength = filteredUsers.length;
     }
   };
   return (
     <>
-      <NavBar />
-      <div className="flex justify-center z-10">
+      <NavBar/>
+      <div className="flex justify-center z-10 absolute top-2 right-0 left-0">
         <SearchBar
           value={searchValue}
           onChange={({ target }) => setSearchValue(target.value)}
@@ -33,14 +35,13 @@ const UserList = () => {
       </div>
       <div className="flex items-center justify-center mt-0">
         <div className="grid grid-cols-3 w-[75%]">
-          {
-          temp.map((user, index) => (
+          {temp.map((user, index) => (
             <UserCard user={user} key={index} />
           ))}
         </div>
       </div>
       <Pagination
-        totalUsers={searchValue === "" ? users.length : temp.length}
+        totalUsers={searchValue === "" ? users.length : tempLength}
         usersPerPage={usersPerPage}
         setCurrentPage={setCurrentPage}
       />
