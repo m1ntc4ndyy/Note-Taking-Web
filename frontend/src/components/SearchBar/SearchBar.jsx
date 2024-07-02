@@ -8,10 +8,11 @@ const SearchBar = ({ value, onChange, handleSearch }) => {
         className="w-full bg-transparent text-sx py-[11px] outline-none"
         value={value}
         onChange={onChange}
+        onKeyDown={(e) => e.key === "Enter" && handleSearch}
       />
       <FaMagnifyingGlass
         className="text-slate-500 cursor-pointer hover:text-black"
-        onClick={onChange}
+        onClick={handleSearch}
       />
     </div>
   );

@@ -68,36 +68,6 @@
         "name": "William Clark",
         "email": "williamclark@example.com",
         "phonenumber": "5656565656"
-    },
-    {
-        "name": "Ava Lewis",
-        "email": "avalewis@example.com",
-        "phonenumber": "7878787878"
-    },
-    {
-        "name": "Daniel Lee",
-        "email": "daniellee@example.com",
-        "phonenumber": "9090909090"
-    },
-    {
-        "name": "Sofia Walker",
-        "email": "sofiawalker@example.com",
-        "phonenumber": "2323232323"
-    },
-    {
-        "name": "Joseph Hall",
-        "email": "josephhall@example.com",
-        "phonenumber": "4545454545"
-    },
-    {
-        "name": "Charlotte Young",
-        "email": "charlotteyoung@example.com",
-        "phonenumber": "6767676767"
-    },
-    {
-        "name": "David Hernandez",
-        "email": "davidhernandez@example.com",
-        "phonenumber": "8989898989"
     }
 
 ]
