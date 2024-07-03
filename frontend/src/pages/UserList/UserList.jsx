@@ -3,7 +3,8 @@ import NavBar from "../../components/NavBar/NavBar";
 import UserCard from "../../components/UserCard/UserCard";
 import Pagination from "../../components/Pagination/Pagination";
 import SearchBar from "../../components/SearchBar/SearchBar";
-import { useState, useEffect } from "react";
+import { useState } from "react";
+
 const UserList = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [usersPerPage, setUserPerPage] = useState(12);
@@ -14,13 +15,15 @@ const UserList = () => {
   const currentUsers = users.slice(firstUserIndex, lastUserIndex);
   let temp = currentUsers;
   let tempLength = temp.length;
-  const handleSearch = () => {
-    if (searchValue !== "") {
+  const handleSearch = (event) => {
+    if (event.key==="Enter" && searchValue !== "") {
       const filteredUsers = users.filter((user) =>
         user.name.toLowerCase().includes(searchValue.toLowerCase())
+
       );
       temp = filteredUsers.slice(firstUserIndex, lastUserIndex);
       tempLength = filteredUsers.length;
+      // setCurrentPage(1);
     }
   };
   return (
@@ -30,10 +33,10 @@ const UserList = () => {
         <SearchBar
           value={searchValue}
           onChange={({ target }) => setSearchValue(target.value)}
-          onKeyDown={handleSearch()}
+          onKeyDown={handleSearch}
         />
       </div>
-      <div className="flex items-center justify-center mt-0">
+      <div className="flex items-center justify-center mt-10">
         <div className="grid grid-cols-3 w-[75%]">
           {temp.map((user, index) => (
             <UserCard user={user} key={index} />

@@ -26,7 +26,7 @@ const Login = () => {
     <>
       {/* <NavBar /> */}
       <div className="flex item-center justify-center mt-28">
-        <div className="w-96 border rounded-lg bg-white px-7 py-10">
+        <div className="w-96 border-slate-300 border-2 rounded-lg bg-white px-7 py-10">
           <form onSubmit={handleLogin}>
             <h4 className="text-2xl mb-7 select-none">Login</h4>
             <input
@@ -40,6 +40,7 @@ const Login = () => {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
             />
+            
 
             {error && (
               <p className="text-red-500 text-xs pb-1 select-none">{error}</p>
