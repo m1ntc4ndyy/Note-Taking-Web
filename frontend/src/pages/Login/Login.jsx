@@ -1,5 +1,4 @@
 import PasswordInput from "../../components/Input/PasswordInput.jsx";
-import NavBar from "../../components/NavBar/NavBar.jsx";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { validateEmail } from "../../utils/helper.js";
